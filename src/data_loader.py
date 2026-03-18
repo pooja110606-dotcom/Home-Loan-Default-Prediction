@@ -8,6 +8,5 @@ def load_data():
     previous = pd.read_csv("data/raw/previous_application.csv")
     installments = pd.read_csv("data/raw/installments_payments.csv")
     credit = pd.read_csv("data/raw/credit_card_balance.csv")
-    pos = pd.read_csv("data/raw/POS_CASH_balance.csv")
-
-    return application, bureau, bureau_balance, previous, installments, credit, pos
+    
+    return application, bureau, bureau_balance, previous, installments, credit
